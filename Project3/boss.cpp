@@ -1,6 +1,6 @@
 #include "boss.h"
 
-//¹¹Ôìº¯Êı
+//æ„é€ å‡½æ•°
 Boss::Boss(int id, string name, int dId)
 {
 	this->m_Id = id;
@@ -8,17 +8,17 @@ Boss::Boss(int id, string name, int dId)
 	this->m_DeptId = dId;
 }
 
-//ÏÔÊ¾¸öÈËĞÅÏ¢
+//æ˜¾ç¤ºä¸ªäººä¿¡æ¯
 void Boss::showInfo()
 {
-	cout << "Ö°¹¤±àºÅ£º " << this->m_Id
-		<< "\tÖ°¹¤ĞÕÃû£º " << this->m_Name
-		<< "\t¸ÚÎ»£º " << this->getDeptName()
-		<< "\t¸ÚÎ»Ö°Ôğ£º ¹ÜÀí¹«Ë¾ËùÓĞÊÂÎñ" << endl;
+	cout << "èŒå·¥ç¼–å·ï¼š " << this->m_Id
+		<< "\tèŒå·¥å§“åï¼š " << this->m_Name
+		<< "\tå²—ä½ï¼š " << this->getDeptName()
+		<< "\tå²—ä½èŒè´£ï¼š ç®¡ç†å…¬å¸æ‰€æœ‰äº‹åŠ¡" << endl;
 }
 
-//»ñÈ¡¸ÚÎ»Ãû³Æ
+//è·å–å²—ä½åç§°
 string Boss::getDeptName()
 {
-	return  string("×Ü²Ã");
+	return  string("æ€»è£");
 }

@@ -1,6 +1,6 @@
 #include "manager.h"
 
-//¹¹Ôìº¯Êı
+//æ„é€ å‡½æ•°
 Manager::Manager(int id, string name, int dId)
 {
 	this->m_Id = id;
@@ -8,17 +8,17 @@ Manager::Manager(int id, string name, int dId)
 	this->m_DeptId = dId;
 }
 
-//ÏÔÊ¾¸öÈËĞÅÏ¢
+//æ˜¾ç¤ºä¸ªäººä¿¡æ¯
 void Manager::showInfo()
 {
-	cout << "Ö°¹¤±àºÅ£º " << this->m_Id
-		<< "\tÖ°¹¤ĞÕÃû£º " << this->m_Name
-		<< "\t¸ÚÎ»£º " << this->getDeptName()
-		<< "\t¸ÚÎ»Ö°Ôğ£º Íê³ÉÀÏ°å½»¸øµÄÈÎÎñ£¬²¢ÏÂ·¢ÈÎÎñ¸øÔ±¹¤" << endl;
+	cout << "èŒå·¥ç¼–å·ï¼š " << this->m_Id
+		<< "\tèŒå·¥å§“åï¼š " << this->m_Name
+		<< "\tå²—ä½ï¼š " << this->getDeptName()
+		<< "\tå²—ä½èŒè´£ï¼š å®Œæˆè€æ¿äº¤ç»™çš„ä»»åŠ¡ï¼Œå¹¶ä¸‹å‘ä»»åŠ¡ç»™å‘˜å·¥" << endl;
 }
 
-//»ñÈ¡¸ÚÎ»Ãû³Æ
+//è·å–å²—ä½åç§°
 string Manager::getDeptName()
 {
-	return  string("¾­Àí");
+	return  string("ç»ç†");
 }

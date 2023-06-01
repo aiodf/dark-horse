@@ -1,6 +1,6 @@
 #include "employee.h"
 
-//¹¹Ôìº¯Êı
+//æ„é€ å‡½æ•°
 Employee::Employee(int id, string name, int dId)
 {
 	this->m_Id = id;
@@ -8,17 +8,17 @@ Employee::Employee(int id, string name, int dId)
 	this->m_DeptId = dId;
 }
 
-//ÏÔÊ¾¸öÈËĞÅÏ¢
+//æ˜¾ç¤ºä¸ªäººä¿¡æ¯
 void Employee::showInfo()
 {
-	cout << "Ö°¹¤±àºÅ£º " << this->m_Id
-		<< "\tÖ°¹¤ĞÕÃû£º " << this->m_Name
-		<< "\t¸ÚÎ»£º " << this->getDeptName()
-		<< "\t¸ÚÎ»Ö°Ôğ£º Íê³É¾­Àí½»¸øµÄÈÎÎñ" << endl;
+	cout << "èŒå·¥ç¼–å·ï¼š " << this->m_Id
+		<< "\tèŒå·¥å§“åï¼š " << this->m_Name
+		<< "\tå²—ä½ï¼š " << this->getDeptName()
+		<< "\tå²—ä½èŒè´£ï¼š å®Œæˆç»ç†äº¤ç»™çš„ä»»åŠ¡" << endl;
 }
 
-//»ñÈ¡¸ÚÎ»Ãû³Æ
+//è·å–å²—ä½åç§°
 string Employee::getDeptName()
 {
-	return  string("Ô±¹¤");
+	return  string("å‘˜å·¥");
 }

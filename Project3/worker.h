@@ -3,22 +3,22 @@
 using namespace std;
 
 
-//Ö°¹¤³éÏóÀà
+//èŒå·¥æŠ½è±¡ç±»
 class Worker
 {
 public:
 
-	//ÏÔÊ¾¸öÈËĞÅÏ¢
+	//æ˜¾ç¤ºä¸ªäººä¿¡æ¯
 	virtual void showInfo() = 0;
 
-	//»ñÈ¡¸ÚÎ»Ãû³Æ
+	//è·å–å²—ä½åç§°
 	virtual string getDeptName() = 0;
 
-	//Ö°¹¤±àºÅ
+	//èŒå·¥ç¼–å·
 	int m_Id=0;
-	//Ö°¹¤ĞÕÃû
+	//èŒå·¥å§“å
 	string m_Name;
-	//²¿ÃÅ±àºÅ
+	//éƒ¨é—¨ç¼–å·
 	int m_DeptId=0;
 
 };
